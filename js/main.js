@@ -37,7 +37,7 @@ search1.addEventListener('click',function(){
   }
 
   else{
- Swal.fire("section not found")
+//  Swal.fire("section not found")
 }
 
 })
@@ -165,7 +165,7 @@ addToCart.forEach((card) => {
     box = e.currentTarget.parentElement;
     let titleCard = box.childNodes[3].textContent;
     boxPrice = box.childNodes[5].textContent;
-    Swal.fire('Product Added To Cart')
+    // Swal.fire('Product Added To Cart')
     let price1 = "";
     for (let i = 0; i < 6; i++) {
       price1 += boxPrice[i];
@@ -224,7 +224,7 @@ buy.forEach((b) => {
       let title1=e.currentTarget.parentElement.parentElement.childNodes[5].childNodes[1].textContent;
      let price2=e.currentTarget.parentElement.parentElement.childNodes[5].childNodes[5].textContent;
     
-     Swal.fire('Product Added To Cart')
+    //  Swal.fire('Product Added To Cart')
 
       let price1 = "";
       for (let i = 0; i < 6; i++) {
